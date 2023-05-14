@@ -1,73 +1,31 @@
-<!DOCTYPE HTML>
 <html>
   <head>
-    <meta charset="UTF-8">
     <title>lindown下载站--免安装的Linux系统硬盘下载</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=5.0">
+    <meta charset="utf-8">
     <meta name="description" content="wusheng233与D70G3的lindown，免费不限速下载免安装的Linux硬盘，人工测试，安全可靠。">
     <link rel="stylesheet" href="/mdui.min.css">
     <script src="/mdui.min.js"></script>
   </head>
   <body>
-    // 这是最顶部的菜单
     <div class="mdui-appbar">
-     <div class="mdui-tab mdui-color-indigo" mdui-tab>
-        <a href="#Main" class="mdui-ripple mdui-ripple-white">主页</a>
-        <a href="#Script" class="mdui-ripple mdui-ripple-white">教程</a>
+      <div class="mdui-tab mdui-color-indigo" mdui-tab>
         <a href="#Debian" class="mdui-ripple mdui-ripple-white">Debian</a>
       </div>
     </div>
-    // 主页（Main）
     <div class="mdui-container-fluid">
-      <div id="Main">
-        <h1>关于本项目：</h1>
-          <p>本项目由<b>wusheng233</b>提供灵感，<b>D70G3</b>负责运营</p>
-           <br>
-          <h1>为什么会有这个项目？</h1>
-          <p>因为wusheng233首先提出了WINDOWN，而D70G3比较喜欢Linux，
-           <br>
-            <b>所以就有了这个项目！</b>
-            <h1>我可以从哪里下载虚拟机软件？</h1>
-             <p>你可以在<a href="https://pan.huang1111.cn/s/qoz5C3"?>这里</a>找到主流Android和Windows的冷门虚拟机</p>
-              <h1>Windows虚拟机太复杂了，我不会用怎么办？<h1>
-                <p>你不知道D70G3十分贴心的给你写了教程吗？</p>
-                </div>
-                </div>
-        // 这里是教程区
-        <div class="mdui-container-fluid">
-          <div id="Script">
-            <h1>这里是教程区</h1>
-            <div>
-              <b>QEMU：</b>
-                <ol>按住Windows + R键，输人cmd，回车<br>
-                  输人cd 你安装QEMU的盘符\QEMU<br>
-                 </ol>
-                <ul>
-                  32位系统：qemu-system-i386.exe -boot d -m 1024 -hda 镜像路径（可以直接拖进去） -net nic<br>
-                  64位系统：qemu-system-x86_64.exe -boot d -m 1024 -hda 镜像路径（可以直接拖进去） -net nic<br>
-              </ul>
-            </div>
-          </div>
+      <div id="Debian">
+        <h1>欢迎使用Debian Lindown Edition</h1>
+        <p>因为特殊原因，我必须对镜像内两个用户设置密码</p>
+        <p>Debian系列密码都是账号固定的</p>
+        <p><b>root用户的密码统一都是Debian3</b></p>
+        <p>新用户账号统一<b>d70g2</b><br>
+          密码统一<b>Debian2</b></p>
+        <h2>以下是Debian系列更新镜像：</h2>
+        <div>
+          <li><a href="https://pan.huang1111.cn/s/qoz5C3?">Debian8-i386</a></li>
         </div>
-        <div class="mdui-appbar">
-         <div class="mdui-tab mdui-color-indigo" mdui-tab>
-           <div class="mdui-container-fluid">
-            <div id="Debian">
-              <h1>说明：</h1>
-                <h2>Debian通用登录用户名和密码</h2>
-                 <p>用户名1：<b>root</b></p>
-                 <p>密码：<b>Debian3</b></p>
-                 <br>
-                 <p>用户名2：<b>d70g2</b></p>
-                  <p>密码：<b>Debian2</b></p>
-                  <br>
-                    <div>
-                      <ol><a href="https://pan.huang1111.cn/s/L8BlU6">debian8-i386.vmdk</a>
-                     </div>
-                    </div>
-             </div>
-           </div>
-          </div>
-        </div>
-        </body>
-      </html>
+      </div>
+    </div>
+  </body>
+</html>
